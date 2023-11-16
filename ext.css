@@ -1,0 +1,13 @@
+h1{
+    color: cornflowerblue;
+    background-color: bisque;
+}
+p{
+    color: blue;
+    background-color: greenyellow;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+}

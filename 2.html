@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Objects Example</title>
+</head>
+<body>
+
+<script>
+    // Define a simple person object
+    var person = {
+        firstName: "shank",
+        lastName: "M",
+        age: 20,
+        email: "john.doe@example.com",
+        isStudent: false,
+        address: {
+            street: "123 Main St",
+            city: "Anytown",
+            zipCode: "12345"
+        },
+        sayHello: function() {
+            return "Hello, my name is " + this.firstName + " " + this.lastName + ".";
+        }
+    };
+
+    // Accessing properties of the person object
+    console.log("First Name: " + person.firstName);
+    console.log("Last Name: " + person.lastName);
+    console.log("Age: " + person.age);
+    console.log("Email: " + person.email);
+    console.log("Is Student? " + person.isStudent);
+    console.log("Street: " + person.address.street);
+    console.log("City: " + person.address.city);
+    console.log("Zip Code: " + person.address.zipCode);
+    console.log(person)
+    // Call the sayHello method
+    console.log(person.sayHello());
+</script>
+
+</body>
+</html>
